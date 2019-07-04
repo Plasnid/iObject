@@ -82,3 +82,19 @@ otherCourtRoom.jName = "Bea Fritogo";
 for(let legal in otherCourtRoom){
     console.log(`${legal}: ${otherCourtRoom[legal]}`);
 }
+
+//object constructor functions return an object.. they act like a class, like a blueprint
+function Juror(name, mood, age){
+    this.name = name;
+    this.mood = mood;
+    this.age = age;
+}
+Juror.prototype.convictDefendant = function(){
+    if(this.mood=="angry"){
+        console.log(`${this.name} says go to jail!!!`);
+    }else{
+        console.log(`${this.name} says you are innocent`);
+    } 
+}
+let bob = new Juror("Bob", "angry",99);
+bob.convictDefendant();
