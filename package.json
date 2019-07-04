@@ -1,0 +1,23 @@
+{
+  "name": "iobject",
+  "version": "1.0.0",
+  "description": "getting up to speed with objects",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Plasnid/iObject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Plasnid/iObject/issues"
+  },
+  "homepage": "https://github.com/Plasnid/iObject#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.3"
+  }
+}
