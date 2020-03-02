@@ -28,6 +28,16 @@ console.log(defendantName.split("").reverse().join(""));
 console.log(`is a string an object? ${typeof(defendantName)}`);
 
 //4.  how about dates?
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date
+/*
+JavaScript
+Creates a JavaScript Date instance that represents a single moment in time. Date objects are based on a time value that is the number of milliseconds since 1 January, 1970 UTC.
+
+new Date();
+new Date(value);
+new Date(dateString);
+new Date(year, month[, date[, hours[, minutes[, seconds[, milliseconds]]]]]);
+*/
 let courtDate = new Date();
 console.log(courtDate.getFullYear());
 console.log(courtDate.getMonth());
