@@ -19,7 +19,8 @@ console.log(numJurors.toExponential(2));
 console.log(`is a number an object? ${typeof(numJurors)}`);
 
 //3.  well, what about strings?  Are strings objects as well?.... YES!
-
+//based on someones actual name. - https://www.orlandosentinel.com/features/gone-viral/os-florida-woman-crystal-metheny-20140611-post.html
+// no relation to......  https://www.sun-sentinel.com/news/fl-xpm-2014-05-21-fl-edward-cocaine-charges-dropped-20140521-story.html
 let defendantName = new String("crystal methani");
 console.log(defendantName.charCodeAt(0));
 console.log(defendantName.includes("crystal meth"));
